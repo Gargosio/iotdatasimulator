@@ -1,1 +1,1 @@
-worker: python datageneratorv4.py
+web: python datageneratorv4.py
