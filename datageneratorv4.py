@@ -8,7 +8,7 @@ from pymongo import MongoClient
 class WaterSensor:
     def __init__(self, device_ids):
         self.device_ids = device_ids
-        self.mongo_client = MongoClient("mongodb+srv://toloo:Godocholoo@cluster0.idj1r.mongodb.net/test")  # Change connection string as needed
+        self.mongo_client =  ************************************* # Change connection string as needed
         self.db = self.mongo_client["iotdatadb"]
         self.collection = self.db["sensor_data_prd"]
 
